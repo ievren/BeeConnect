@@ -3,7 +3,6 @@
   ******************************************************************************
   * @file           : main.c
   * @brief          : Main program body
-  * @edited:        : Ibrahim Evren
   ******************************************************************************
   ** This notice applies to any and all portions of this file
   * that are not between comment pairs USER CODE BEGIN and
@@ -50,8 +49,11 @@ UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
-uint8_t buff_txt[10] = "Hello \n\r";
+static volatile uint32_t data = 0;
+static volatile char buff_txt[10] = "Hello \n\r";
 float value = 3.0;
+
+uint16_t tDelay = 50;
 
 /* USER CODE END PV */
 
@@ -81,9 +83,26 @@ PUTCHAR_PROTOTYPE
     return ch;
 }
 
-uint8_t read_ads1232(void)
+char *read_ads1232(char buffer[])
 {
-    return buff_txt;
+    static uint16_t previous_pind8 = 0;
+    uint16_t pind8_state = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_9);
+    uint16_t edge_rising;
+    
+    //detect rising edge
+    edge_rising =   pind8_state & ~previous_pind8;
+    
+    //store state for next detection
+    previous_pind8 = pind8_state;
+    __NOP();
+    
+    uint32_t time_start = HAL_GetTick();
+    uint32_t time_elapssed = 0;
+    
+    for(int i =0; i<24; i++){
+        data += HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_9)<<i;
+    }
+    return buffer;
 }
 
 /* USER CODE END 0 */
@@ -132,13 +151,15 @@ int main(void)
 
   /* USER CODE BEGIN 3 */
   //Call read function for reading signal
-  read_ads1232();
-      
+  //--read_ads1232();
+      HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5); //LED 
+      HAL_Delay(tDelay);
+
       
   //HAL_UART_Transmit(&huart2, buff_txt, 10, 100);
   //printf("float value: %f\n\r", value);
   //value = value + 0.1415926;
-  printf("Buffer Text: %s\n\r", buff_txt);
+  printf("Buffer Text1: %s\n\r", read_ads1232(buff_txt));
   HAL_Delay(500);
       
 
@@ -235,9 +256,38 @@ static void MX_USART2_UART_Init(void)
 static void MX_GPIO_Init(void)
 {
 
+  GPIO_InitTypeDef GPIO_InitStruct;
+
   /* GPIO Ports Clock Enable */
+  __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOH_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin : PC13 */
+  GPIO_InitStruct.Pin = GPIO_PIN_13;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : PA5 */
+  GPIO_InitStruct.Pin = GPIO_PIN_5;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : PA9 */
+  GPIO_InitStruct.Pin = GPIO_PIN_9;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+  /* EXTI interrupt init*/
+  HAL_NVIC_SetPriority(EXTI15_10_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI15_10_IRQn);
 
 }
 
