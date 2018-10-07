@@ -81,6 +81,11 @@ PUTCHAR_PROTOTYPE
     return ch;
 }
 
+uint8_t read_ads1232(void)
+{
+    return buff_txt;
+}
+
 /* USER CODE END 0 */
 
 /**
@@ -126,11 +131,14 @@ int main(void)
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
-  //Call read function for     
+  //Call read function for reading signal
+  read_ads1232();
+      
       
   //HAL_UART_Transmit(&huart2, buff_txt, 10, 100);
-  printf("float value: %f\n\r", value);
-  value = value + 0.1415926;
+  //printf("float value: %f\n\r", value);
+  //value = value + 0.1415926;
+  printf("Buffer Text: %s\n\r", buff_txt);
   HAL_Delay(500);
       
 
