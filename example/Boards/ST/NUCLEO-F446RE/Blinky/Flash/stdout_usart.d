@@ -1,0 +1,11 @@
+.\flash\stdout_usart.o: stdout_USART.c
+.\flash\stdout_usart.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+.\flash\stdout_usart.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h
+.\flash\stdout_usart.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h
+.\flash\stdout_usart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\stdout_usart.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h
+.\flash\stdout_usart.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h
+.\flash\stdout_usart.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h
+.\flash\stdout_usart.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h
+.\flash\stdout_usart.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
+.\flash\stdout_usart.o: C:\Users\ibi\switchdrive\PA_Bienenwaage\05_Software\STM32_Nucleo\example\Boards\ST\NUCLEO-F446RE\Blinky\RTE\RTE_Components.h

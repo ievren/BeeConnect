@@ -1,0 +1,67 @@
+Dependencies for Project 'Blinky', Target 'STM32F446 Flash': (DO NOT MODIFY !)
+F (.\Blinky.c)(0x5BB9E7BE)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -IC:\Users\ibi\switchdrive\PA_Bienenwaage\05_Software\STM32_Nucleo\example\Boards\ST\NUCLEO-F446RE\Blinky\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F446xx --C99-o .\flash\blinky.o --omf_browse .\flash\blinky.crf --depend .\flash\blinky.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E9286)
+I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board\Board_LED.h)(0x5877542C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board\Board_Buttons.h)(0x5877542C)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5A8FE7C4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h)(0x5A8FE7C4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B61C4E4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F92F4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B589826)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B61C4E4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B61C4E4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5A8FE7C4)
+F (.\stdout_USART.c)(0x56C5CBA4)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -IC:\Users\ibi\switchdrive\PA_Bienenwaage\05_Software\STM32_Nucleo\example\Boards\ST\NUCLEO-F446RE\Blinky\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F446xx --C99-o .\flash\stdout_usart.o --omf_browse .\flash\stdout_usart.crf --depend .\flash\stdout_usart.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5A8FE7C4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h)(0x5A8FE7C4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B61C4E4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F92F4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B589826)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B61C4E4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B61C4E4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5A8FE7C4)
+I (C:\Users\ibi\switchdrive\PA_Bienenwaage\05_Software\STM32_Nucleo\example\Boards\ST\NUCLEO-F446RE\Blinky\RTE\RTE_Components.h)(0x5BB9E701)
+F (.\Abstract.txt)(0x56C5CBA4)()
+F (C:\Keil_v5\ARM\PACK\Keil\STM32NUCLEO_BSP\1.6.0\Boards\ST\NUCLEO-F446RE\Common\Buttons_NUCLEO-F446RE.c)(0x56C5CBA4)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -IC:\Users\ibi\switchdrive\PA_Bienenwaage\05_Software\STM32_Nucleo\example\Boards\ST\NUCLEO-F446RE\Blinky\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F446xx --C99-o .\flash\buttons_nucleo-f446re.o --omf_browse .\flash\buttons_nucleo-f446re.crf --depend .\flash\buttons_nucleo-f446re.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5A8FE7C4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h)(0x5A8FE7C4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B61C4E4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F92F4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B589826)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B61C4E4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B61C4E4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5A8FE7C4)
+I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board\Board_Buttons.h)(0x5877542C)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32NUCLEO_BSP\1.6.0\Boards\ST\NUCLEO-F446RE\Common\LED_NUCLEO-F446RE.c)(0x56C5CBA4)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -IC:\Users\ibi\switchdrive\PA_Bienenwaage\05_Software\STM32_Nucleo\example\Boards\ST\NUCLEO-F446RE\Blinky\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F446xx --C99-o .\flash\led_nucleo-f446re.o --omf_browse .\flash\led_nucleo-f446re.crf --depend .\flash\led_nucleo-f446re.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5A8FE7C4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h)(0x5A8FE7C4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B61C4E4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F92F4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B589826)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B61C4E4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B61C4E4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5A8FE7C4)
+I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board\Board_LED.h)(0x5877542C)
+F (C:\Keil_v5\ARM\PACK\Keil\ARM_Compiler\1.6.0\Source\retarget_io.c)(0x584E7E1E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -IC:\Users\ibi\switchdrive\PA_Bienenwaage\05_Software\STM32_Nucleo\example\Boards\ST\NUCLEO-F446RE\Blinky\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F446xx --C99-o .\flash\retarget_io.o --omf_browse .\flash\retarget_io.crf --depend .\flash\retarget_io.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_sys.h)(0x574E9286)
+I (C:\Users\ibi\switchdrive\PA_Bienenwaage\05_Software\STM32_Nucleo\example\Boards\ST\NUCLEO-F446RE\Blinky\RTE\RTE_Components.h)(0x5BB9E701)
+F (RTE\Device\STM32F446RETx\startup_stm32f446xx.s)(0x56C5CBA4)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Users\ibi\switchdrive\PA_Bienenwaage\05_Software\STM32_Nucleo\example\Boards\ST\NUCLEO-F446RE\Blinky\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "STM32F446xx SETA 1"--list .\flash\startup_stm32f446xx.lst --xref -o .\flash\startup_stm32f446xx.o --depend .\flash\startup_stm32f446xx.d)
+F (RTE\Device\STM32F446RETx\system_stm32f4xx.c)(0x56C5CBA4)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -IC:\Users\ibi\switchdrive\PA_Bienenwaage\05_Software\STM32_Nucleo\example\Boards\ST\NUCLEO-F446RE\Blinky\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F446xx --C99-o .\flash\system_stm32f4xx.o --omf_browse .\flash\system_stm32f4xx.crf --depend .\flash\system_stm32f4xx.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5A8FE7C4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h)(0x5A8FE7C4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B61C4E4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F92F4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B589826)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B61C4E4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B61C4E4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5A8FE7C4)
